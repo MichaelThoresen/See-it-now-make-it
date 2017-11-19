@@ -36,18 +36,36 @@ p {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    
 }
 h1{
     font-size: 2em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-h2, h3, h4 {
+h2, h3, h4, h5, h6, h7, h8 {
     font-size; 1.75em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-weight: bold;
 }
-#navbar {
-    
+.container {
+    width: 75%;
+    height: auto;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #000000;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div:not(name="container") {
+   background-color: #b3b3b3;
+}
+.shrink img{
+    width: 70%;
+    height: auto;
+}
+body {
+    background-color: #f2eeeb;
 }
