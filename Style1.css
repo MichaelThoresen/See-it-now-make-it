@@ -67,4 +67,5 @@ div:not(name="container") {
 }
 body {
     background-color: #f2eeeb;
+    margin: 0 auto;
 }
